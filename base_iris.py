@@ -54,5 +54,4 @@ def predict():
     
 # It is the starting point of code
 if __name__=='__main__':
-  # We need to run the app to run the server
-  app.run(debug=True)
+  app.run(host='0.0.0.0',port=8090)
